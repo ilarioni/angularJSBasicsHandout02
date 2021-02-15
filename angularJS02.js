@@ -88,3 +88,18 @@ app.controller("myCtrl", function($scope) {
 
 </div>
 */
+
+// Cost Calculator
+/*
+<div data-ng-app="" data-ng-init="quantity=2;price=5">
+
+<h2>Cost Calculator</h2>
+
+Quantity: <input type="number" ng-model="quantity">
+<br>
+Price: <input type="number" ng-model="price">
+
+<p><b>Total in dollar:</b> {{quantity * price}}</p>
+
+</div>
+*/
