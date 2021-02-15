@@ -70,3 +70,21 @@ app.controller("myCtrl", function($scope) {
 </body>
 </html>
 */
+
+// Angular JS Directives
+
+// AngularJS directives are extended HTML attributes with the prefix ng-.
+// The ng-app directive initializes an AngularJS application.
+// The ng-init directive initializes application data.
+// The ng-model directive binds the value of HTML controls (input, select, textarea) to application data.
+
+// The ng-app directive also tells AngularJS that the <div> element is the "owner" of the AngularJS application.
+/*
+<div ng-app="" ng-init="firstName='John'">
+
+<p>Input something in the input box:</p>
+<p>Name: <input type="text" ng-model="first"></p>
+<p>You wrote: {{ first }}</p>
+
+</div>
+*/
