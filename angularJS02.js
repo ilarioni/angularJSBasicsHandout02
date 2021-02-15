@@ -131,3 +131,28 @@ Price: <input type="number" ng-model="price">
 
 </div>
 */
+
+// Create new directives
+
+/*
+<body ng-app="myApp">
+
+<w3-test-directive></w3-test-directive>
+
+<script>
+var app = angular.module("myApp", []);
+app.directive("w3TestDirective", function() {
+    return {
+        template : "<h1>Made by a directive!</h1>"
+    };
+});
+</script>
+
+</body>
+*/
+
+// it contains following details
+// element name - <w3-test-directive></w3-test-directive>
+// attribute - <div w3-test-directive></div>
+// class - <div class="w3-test-directive"></div>
+// comment -- <!-- directive: w3-test-directive -->
