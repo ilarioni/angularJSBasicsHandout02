@@ -103,3 +103,16 @@ Price: <input type="number" ng-model="price">
 
 </div>
 */
+
+// looping with ng-repeat:
+/*
+<div ng-app="" ng-init="names=['Jani','Hege','Kai']">
+  <p>Looping with ng-repeat:</p>
+  <ul>
+    <li ng-repeat="x in names">
+      {{ x }}
+    </li>
+  </ul>
+</div>
+*/
+
